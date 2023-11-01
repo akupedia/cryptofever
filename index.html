@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akash's Cryptocurrency Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- centered content ;-) -->
+        
+            <center><img src="img/akash.jpg"></center> <br>
+            <center><h2>Akash Angle's - Free Crypto Convert to ₹</h2></center>
+            <center><p>Using Coingecko API for pricing - free no keys needed, using Defi Pulse Data for gas estimation!<p></center> <br>
+                <center><p>Made with ♥️ in Navi Mumbai, India<p></center>    
+        
+        
+<!--  it ends here :-) -->
+
+<div class="coin-nav p-3">
+    <button class="btn refresh-button">
+        &#8635;
+    </button>
+    <button class="btn coin-list-nav-object float-end" id="LowestToHighest24h">
+        24H &uarr;
+    </button>
+    <button class="btn coin-list-nav-object float-end" id="HighestToLowest24h">
+        24H &darr;
+    </button>
+    <button class="btn coin-list-nav-object float-end" id="ZtoA">
+        A-Z &uarr;
+    </button>
+    <button class="btn coin-list-nav-object float-end" id="AtoZ">
+        A-Z &darr;
+    </button>
+</div>
+<div class="coin-list text-center">
+<!--    Top 100 coins loaded here-->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="keys.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
